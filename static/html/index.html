@@ -11,20 +11,18 @@
         }
         h1 {
             color: #333333;
-        }
-        h2 {
-            color: #333333;
+            font-size: 30px;
         }
         p {
             margin: 10px;
             color: black;
-        }
-        p1 {
-            margin: 10px;
-            color: black ;
+            text-align: justify;
+            font-size: 24px; /* 设置字体大小为16像素 */
+            line-height: 1.5; /* 设置行间距为字体大小的1.5倍 */
         }
         li {
             margin: 10px;
+            font-size: 16px;
             color: black;
         }
         img {
@@ -33,8 +31,10 @@
             border-radius: 80%;
         }
         .container {
-            width: 800px;
-            margin: 0 auto;
+            width: 80%; /* 设置容器宽度为父元素宽度的80% */
+            margin: 0 auto; /* 居中显示容器 */
+            /* background-color: #f0f0f0; 添加背景颜色以便观察容器宽度 */
+            padding: 20px; /* 添加一些内边距，以使内容与容器边缘有一些间距 */
         }
         .section {
             border: 1px solid #CCCCCC;
@@ -74,15 +74,30 @@
                 <td class="left">
                     <div class="section lang" lang="en" >
                         <img src="static/img/me.png" alt="My Photo">
-                        <p>Hello, I am <em>Han Xu</em>, and I am currently a <em>student</em> in Beijing Institute of Technology.</p>
+                        <p>Hello, I am <strong>Han Xu</strong>, and I am currently a student in Beijing Institute of Technology.</p>
                     </div>
                     
                     <div class="section lang" lang="en">
                         <h1>Introduction</h2>
-                        <p1>I like computers very much, especially desktops. I have three PCs, and a workstation. In my spare time, I like watch some videos about computer hardwares on bilibili or youtobe. What's more, I like trying new things.
-                        I'm a outdoor sports player. I like hiking and climbing. I was once a associate president of an outdoor club in my college. When I am close to mountains, I feel relaxed and relived.
-                        My research interests including robot engineering, computer vision, and artificial intelligence. I am now running
-                        a business with my friends. I think we are doing something interesting and meaningful. Hope we success!</p1>
+                        <p>I have been working as a <strong>Algorithm Engineer</strong> 
+                            in Beijing ZinShark Technology Co., Ltd, established in 2022. 
+                        During this period, I am primarily responsible for algorithm design and development 
+                        for nearly all of our company's products, which span across the fields of robotics, 
+                        computer vision, and deep learning. We have close collaborations 
+                        with professors from top universities such as Tsinghua University, the Chinese Academy of 
+                        Sciences, the Hong Kong University of Science and Technology, and others.</p>
+                        <p>
+                            I have also been working as a <strong>Research Assistant</strong>  at AI Government Lab in Beijing Institute of Technology. 
+                            I am responsible for a task for multi-class fine-grained cell detection.<!-- By modifying the SENet and 
+                           YOLOv7 models, I achieved promising performance on a dataset from hospitals. The model attained an effectiveness 
+                           of 0.754 mAP@0.5 in an 11-class classification, which is higher than other powerful models.  -->
+                           I have completed an academic paper and am preparing 
+                           to submit it to IEEE TRANSACTIONS ON MEDICAL IMAGING.
+                        </p>
+                        <p>
+                            My research and working interests include computer vision, deep learning, robotics engineering, SLAM, and more. I am eager to take on challenges in new domains, and my 
+                            ultimate goal is to create something practical and valuable. I aspire for my future work to make a meaningful impact and help more people.</p1>
+                        </p>
                     </div>
                 </td>
             </tr>
@@ -90,25 +105,23 @@
                 <td class="left">
                     <div class="section lang" lang="en" >
                         <h1>Projects</h1>
-                        <p1>Here, there is a list about some projects I have worked on:</p1>
+                        <p>Here, there is a list about some projects I have worked on:</p>
                         <ul>
-                            <li>Project 1: This is a project about <em>Project 1 description</em>.</li>
-                            <li>Project 2: This is a project about <em>Project 2 description</em>.</li>
-                            <li>Project 3: This is a project about <em>Project 3 description</em>.</li>
+                            <li>(2022) Project 1: This is a project about <em>Container Interior Wall Inspection</em>.</li>
+                            <li>(2023) Project 2: This is a project about <em>Infrared Camera Night-Assisted Driving</em>.</li>
+                            <li>(2023) Project 3: This is a project about <em>Firefighting Robot</em>.</li>
+                            <li>(2023) Project 4: This is a project about <em>Medical Q\&A System</em>.</li>
+                            <li>(2023) Project 5: This is a project about <em>Reinforcement Learning Interactive Environment</em>.</li>
                         </ul>
                     </div>
                     <div class="section lang" lang="en" >
-                        <h2>Research</h2>
-                        <p>Here, you can list your published academic articles, for example:</p>
+                        <h1>Research</h1>
                         <ol>
-                            <li>Your Name, Your Co-author. (2023). Title of Article 1. <em>Name of Journal 1</em>, <em>Volume Number</em>(<em>Issue Number</em>), <em>Page Numbers</em>.</li>
-                            <li>Your Name, Your Co-author. (2023). Title of Article 2. <em>Name of Journal 2</em>, <em>Volume Number</em>(<em>Issue Number</em>), <em>Page Numbers</em>.</li>
-                            <li>Your Name, Your Co-author. (2023). Title of Article 3. <em>Name of Journal 3</em>, <em>Volume Number</em>(<em>Issue Number</em>), <em>Page Numbers</em>.</li>
+                            <li>SENet with normalization on yolov7 for 11-class cell detection (2023). Manuscript submitted for publication.</li>
                         </ol>
                     </div>
                     <div class="section lang" lang="en" >
-                        <h2>Links</h2>
-                        <p>Here, you can list your GitHub and blog addresses, for example:</p>
+                        <h1>Contact</h1>
                         <ul class="links">
                             <li><a href="https://www.github.com/kylinhx">My Github</a></li>
                             <li><a href="https://www.kylinhanx.com/blog">My Blog</a></li>
