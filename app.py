@@ -10,6 +10,4 @@ def homepage():
 
 if __name__ == '__main__':
     # BEGIN: ed8c6549bwf9
-    app.run(port=80, host='101.42.151.208', ssl_context='adhoc')
-    # END: ed8c6549bwf9
     app.run(port=80)
